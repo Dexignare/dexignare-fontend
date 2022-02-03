@@ -1,0 +1,58 @@
+:root {
+  --gradient: linear-gradient(
+    to right,
+    rgb(251, 113, 133),
+    rgb(217, 70, 239),
+    rgb(99, 102, 241)
+  );
+}
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  /* border: 2px solid white; */
+  border-radius: 50px;
+  position: absolute;
+  left: calc(50% - 15px);
+  bottom: 2px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  
+  border: 2px solid white;
+  background: var(--gradient);
+
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
