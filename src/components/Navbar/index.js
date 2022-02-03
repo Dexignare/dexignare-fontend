@@ -39,9 +39,10 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className='text-md text-white'
+                className='text-white cursor-pointer menuitem hover:text-white py-1 rounded-full transition-all duration-200 ease-out'
               >
                 {item.name}
+            <span className="hover:w-3/5"></span>
               </a>
             ))}
           </div>
