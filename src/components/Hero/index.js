@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../../components/Button'
+import ModalButton from '../../components/ModalButton'
 import ScrollButton from './../ScrollButton'
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
           20th - 23rd March
         </p>
         <div className='absolute left-4 right-4 bottom-32 xxs:bottom-28 xs:bottom-36 xxs:my-4'>
-          <Button text='Book My Seat' />
+          <ModalButton text='Book My Seat' />
         </div>
       </div>
       <p class='text-white font-thin uppercase font-montserrat tracking-wider text-center absolute bottom-16 right-0 left-0 px-4'>
