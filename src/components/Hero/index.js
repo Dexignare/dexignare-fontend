@@ -16,7 +16,7 @@ const Hero = () => {
           <ModalButton text='Book My Seat' />
         </div>
       </div>
-      <p class='text-white font-thin uppercase font-montserrat tracking-wider text-center absolute bottom-16 right-0 left-0 px-4'>
+      <p class='text-white font-medium uppercase font-montserrat tracking-tight hover:tracking-widest text-center absolute bottom-16 right-0 left-0 px-4 transition ease-in-out delay-250 duration-300'>
         Turn your Creativity into reality
       </p>
       <ScrollButton />
