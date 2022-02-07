@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dexignare-fontend/static/css/main.6cdd4310.css",
+    "main.js": "/dexignare-fontend/static/js/main.2a7f1f09.js",
+    "static/js/27.2cc9a526.chunk.js": "/dexignare-fontend/static/js/27.2cc9a526.chunk.js",
+    "static/media/logo.svg": "/dexignare-fontend/static/media/logo.c6b494056e83b7d50782b53db1c86af0.svg",
+    "index.html": "/dexignare-fontend/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.6cdd4310.css",
+    "static/js/main.2a7f1f09.js"
+  ]
+}
