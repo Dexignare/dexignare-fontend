@@ -1,10 +1,10 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 const navigation = [
-  { name: 'About', href: '#' },
+  { name: 'About', href: 'https://medium.com/dexignare/design-development-days-an-initiative-by-dexignare-ea5854d5f9eb', target:"_blank"},
   { name: 'Speakers', href: '#' },
   { name: 'Agenda', href: '#' },
   { name: 'Sponsors', href: '#' },
@@ -39,6 +39,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
+                target={item.target}
                 className='text-white cursor-pointer menuitem hover:text-white py-1 rounded-full transition-all duration-200 ease-out'
               >
                 {item.name}
