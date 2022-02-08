@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
       <p class='text-white font-medium uppercase font-montserrat tracking-tight hover:tracking-widest text-center absolute bottom-16 right-0 left-0 px-4 transition ease-in-out delay-250 duration-300'>
-        Turn your Creativity into reality
+        Turn Imagination into Creativity
       </p>
       <ScrollButton />
     </main>
