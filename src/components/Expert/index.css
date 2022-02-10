@@ -1,0 +1,5 @@
+.gridcol {
+  border: solid 3px transparent;
+  border-image: linear-gradient(45deg, #9130ea, #cb6497, #ff715b);
+  border-image-slice: 1;
+}
