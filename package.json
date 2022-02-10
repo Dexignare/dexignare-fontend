@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ddd.dexignare.in",
   "name": "tailwind",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,10 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "babel-loader": "^8.2.3",
-    "tailwindcss": "^3.0.18",
-    "webpack": "^5.68.0"
+    "gh-pages": "^3.2.3",
+    "tailwindcss": "^3.0.18"
   }
 }
