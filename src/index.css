@@ -11,13 +11,15 @@
 
 html {
   /* font-family: "Montserrat", sans-serif; */
+  background-color: #05000B;
 }
 /* ------------Custom Scrollbar------------- */
 
+
 /* width */
 ::-webkit-scrollbar {
-  width: 16px;
-  height: 16px;
+  width: 8px;
+  height: 12px;
 }
 
 /* Track */
@@ -28,9 +30,10 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #37006d;
+  /* background: #37006d; */
+  background: linear-gradient(to top, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
   border-radius: 100vh;
-  border: 3px solid #edf2f7;
+  /* border: 3px solid #edf2f7; */
 }
 
 /* ---------------------------------------- */
