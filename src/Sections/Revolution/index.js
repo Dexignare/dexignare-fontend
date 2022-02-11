@@ -5,7 +5,7 @@ import Button from "../../components/Button";
 const Revo = () => {
   return (
     <div
-      className="bg-texture bg-dark-700 py-16 text-white text-right px-4 my-8 sm:my-24 lg:my-32 mx-auto font-montserrat">
+      className="bg-texture bg-no-repeat bg-center bg-cover bg-dark-700 py-16 text-white text-right px-4 my-8 sm:my-24 lg:my-32 mx-auto font-montserrat">
       <p
         className="font-bold text-white text-2xl xxxs:text-{5xl} sm:text-4xl md:text-5xl lg:text-6xl sm:px-4 lg:px-8"
       >
