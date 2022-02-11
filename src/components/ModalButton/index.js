@@ -21,7 +21,7 @@ const ModalButton = ({ text }) => {
             <button
               type='button'
               onClick={openModal}
-              className='w-full bg-black flex items-center justify-center px-12 py-3 border border-transparent text-base font-medium rounded-tl-xl rounded-br-xl text-white border-2 md:py-4 md:text-lg md:px-10 font-montserrat'
+              className='w-full bg-black hover:bg-dark-700 flex items-center justify-center px-12 py-3 border border-transparent text-base font-medium rounded-tl-xl rounded-br-xl text-white border-2 md:py-4 md:text-lg md:px-10 font-montserrat'
             >
               {text}
             </button>

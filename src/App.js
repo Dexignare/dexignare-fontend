@@ -1,4 +1,4 @@
-import Expert from "./components/Expert";
+import Expert from "./Sections/Expert";
 import Header from "./Sections/Header";
 import Revo from "./Sections/Revolution";
 
