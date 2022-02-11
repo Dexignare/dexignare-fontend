@@ -13,6 +13,7 @@ html {
   /* font-family: "Montserrat", sans-serif; */
   background-color: #05000b;
   cursor:none;
+  overflow-x: hidden;
 }
 /* ------------Custom Scrollbar------------- */
 

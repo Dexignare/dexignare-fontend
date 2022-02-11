@@ -38,6 +38,7 @@ module.exports = {
       backgroundImage: {
         gradient:
           'linear-gradient(to left, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241))',
+        texture: 'url(/src/assets/texturebg.png)',
       },
       colors: {
         gradient: {
