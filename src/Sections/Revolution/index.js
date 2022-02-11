@@ -16,11 +16,13 @@ const Revo = () => {
       </p>
       <hr className="h-2 my-4 sm:my-8 lg:mx-16"/>
       <p
-        className="mt-4 mb-16 sm:px-8 lg:px-12 xxs:text-3xl lg:text-7xl"
+        className="mt-4 mb-4 sm:px-8 lg:px-12 xxs:text-3xl lg:text-7xl"
       >
         March 20th, 21st, 22nd & 23rd <br/> Online | Conference - Connect - Designathon
       </p>
+      <div className="sm:flex sm:justify-end sm:px-8 lg:px-12">
       <Button text="Learn more" />
+      </div>
     </div>
   );
 };
