@@ -15,7 +15,7 @@ const GetInTouch = () => {
         </p>
       </div>
       <div className='items-center md:mb-8 sm:flex sm:justify-start sm:px-8 lg:px-12'>
-        <Button text='Get In Toadd uch' link="https://in.linkedin.com/company/dexignare-com"/>
+        <Button text='Get In Touch' link="https://in.linkedin.com/company/dexignare-com"/>
       </div>
     </div>
   )
