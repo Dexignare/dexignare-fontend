@@ -11,13 +11,16 @@
 
 html {
   /* font-family: "Montserrat", sans-serif; */
+  background-color: #05000b;
+  /* cursor:none; */
+  overflow-x: hidden;
 }
 /* ------------Custom Scrollbar------------- */
 
 /* width */
 ::-webkit-scrollbar {
-  width: 16px;
-  height: 16px;
+  width: 8px;
+  height: 12px;
 }
 
 /* Track */
@@ -28,11 +31,21 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #37006d;
+  /* background: #37006d; */
+  background: linear-gradient(
+    to top,
+    rgb(251, 113, 133),
+    rgb(217, 70, 239),
+    rgb(99, 102, 241)
+  );
   border-radius: 100vh;
-  border: 3px solid #edf2f7;
+  /* border: 3px solid #edf2f7; */
 }
 
+.gradient-border {
+border-image-source: linear-gradient(94.83deg, #9c3ad9 0%, #f76e64 100%);
+  border-image-slice: 1;
+}
 /* ---------------------------------------- */
 
 .menuitem {
@@ -44,7 +57,7 @@ html {
   margin: 0 1rem !important;
 }
 
-.menuitem  span {
+.menuitem span {
   position: absolute;
   bottom: 0;
   left: -15px;

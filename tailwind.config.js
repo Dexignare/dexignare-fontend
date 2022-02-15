@@ -6,6 +6,9 @@ module.exports = {
     fontFamily: {
       montserrat: ['montserrat', 'sans-serif'],
     },
+    maxWidth: {
+      '700': '740px',
+    },
     extend: {
       margin: {
         30: '7.5rem',
@@ -38,6 +41,7 @@ module.exports = {
       backgroundImage: {
         gradient:
           'linear-gradient(to left, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241))',
+        texture: 'url(/src/assets/texturebg2.png)',
       },
       colors: {
         gradient: {
