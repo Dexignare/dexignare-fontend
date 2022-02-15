@@ -47,7 +47,9 @@ const data = [
 
 const Agenda = () => {
   return (
-    <div style={{ padding: "1rem" }}>
+    <div
+      // style={{ padding: "1rem" }}
+      className="md:px-8">
       <h4 className=" text-center tracking-tight font-extrabold text-4xl xxxs:text-{5xl} xxs:text-{7xl}  sm:text-4xl lg:text-4xl block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 leading-normal font-montserrat">
         DDD'22
       </h4>
@@ -56,13 +58,13 @@ const Agenda = () => {
       </h2>
       {data.map((data, index) => {
         return (
-          <div className="rectangle" style={{ color: "white" }}>
+          <div className="rectangle text-white" >
             <div style={{ fontSize: "1.75rem" }} className="flex">
               <span
                 style={{ fontWeight: "800" }}
                 className="flex tracking-tight xxxs:text-{5xl} xxs:text-{7xl}  sm:text-4xl lg:text-4xl block  xl:inline leading-normal font-montserrat"
               >
-                {data.Day} -{" "}
+                {data.Day} - {" "}
               </span>
               <span className="tracking-tight font-extrabold xxxs:text-{5xl} xxs:text-{7xl}  sm:text-4xl lg:text-4xl block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 xl:inline leading-normal font-montserrat">
                 {data.Date}
@@ -85,13 +87,15 @@ const Agenda = () => {
                 >
                   {data.time1}
                 </span>
-                <div className="text-white font-montserrat mt-2 font-bold leading-tight">
+                <div className="text-white font-montserrat mt-2 font-bold leading-tight"
+                  style={{ marginLeft: "15px" }}
+                >
                   {data.title1}
                 </div>
               </div>
               <div>
                 <span
-                  style={{ marginLeft: "35%" }}
+                  style={{ marginLeft: "30%" }}
                   className="tracking-tight font-extrabold block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 xl:inline leading-normal font-montserrat"
                 >
                   {data.time2}
@@ -105,12 +109,14 @@ const Agenda = () => {
               </div>
               <div>
                 <span
-                  style={{ marginLeft: "50%" }}
+                  style={{ marginLeft: "40%" }}
                   className="tracking-tight font-extrabold block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 xl:inline leading-normal font-montserrat"
                 >
                   {data.time3}
                 </span>
-                <div className="text-white font-montserrat mt-2 font-bold leading-tight announcement">
+                <div className="text-white font-montserrat mt-2 font-bold leading-tight announcement"
+                style={{ marginLeft: "40%" }}
+                >
                   {data.title3}
                 </div>
               </div>

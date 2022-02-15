@@ -12,7 +12,7 @@
 html {
   /* font-family: "Montserrat", sans-serif; */
   background-color: #05000b;
-  cursor:none;
+  /* cursor:none; */
   overflow-x: hidden;
 }
 /* ------------Custom Scrollbar------------- */
@@ -42,6 +42,10 @@ html {
   /* border: 3px solid #edf2f7; */
 }
 
+.gradient-border {
+border-image-source: linear-gradient(94.83deg, #9c3ad9 0%, #f76e64 100%);
+  border-image-slice: 1;
+}
 /* ---------------------------------------- */
 
 .menuitem {

@@ -4,19 +4,20 @@ import ddd from "../../assets/DDD.svg";
 
 const Footer = () => {
   return (
-    <footer className="text-center lg:text-left text-white-600">
-      <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
-        <div className="mr-12 hidden lg:block">
+    <footer className="bg-dark-700 font-montserrat text-center lg:text-left text-white-600">
+      <div className="flex  bg-dark-900 justify-center items-center lg:justify-between p-6">
+        <div className="px-4 hidden lg:block">
           <span>Get connected with us on social networks:</span>
         </div>
         <div className="flex justify-center">
-          <a href="#!" className="mr-6 text-white-600">
+          <a href="https://www.facebook.com/dexignare/" target="_blank" rel="noopener noreferrer" className="
+          hover:scale-150 mx-4 text-white-600">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="facebook-f"
-              className="w-2.5"
+              className="w-4"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 320 512"
@@ -27,13 +28,14 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" className="mr-6 text-white-600">
+          <a href="https://twitter.com/dexignare" target="_blank" rel="noopener noreferrer" className="
+          hover:scale-150 mx-4 text-white-600">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="twitter"
-              className="w-4"
+              className="w-6"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -44,14 +46,14 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-
-          <a href="#!" className="mr-6 text-white-600">
+          <a href="https://www.instagram.com/dexignare/" target="_blank" rel="noopener noreferrer" className="
+          hover:scale-150 mx-4 text-white-600">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="instagram"
-              className="w-3.5"
+              className="w-6"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -62,13 +64,14 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" className="mr-6 text-white-600">
+          <a href="https://in.linkedin.com/company/dexignare-com" target="_blank" rel="noopener noreferrer" className="
+          hover:scale-150 mx-4 text-white-600">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="linkedin-in"
-              className="w-3.5"
+              className="w-6"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -81,6 +84,15 @@ const Footer = () => {
           </a>
         </div>
       </div>
+        <hr
+        className="w-full"
+        style={{
+          border: 'none',
+          borderRadius: '10px',
+          height: '2px',
+          background: "linear-gradient(to right, #9130ea, #cb6497, #ff715b)"
+        }}
+      />
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
           <div className="head">
@@ -98,23 +110,21 @@ const Footer = () => {
               <img src={ddd} alt="ddd" />
             </h6>
             <p>
-              An inititatve built by, built for & built with the growing
-              community of designers, digital creators, enthusiastic learners
-              and tech developers. Design Development Days is an initiative by
-              Dexignare.
+              An inititatve built by, built for & built with the growing community of designers, digital creators, enthusiastic learners and tech developers. Design Development Days is an initiative by Dexignare.
             </p>
           </div>
           <div className="Contact">
             <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Contact Us
             </h6>
-            <p className="flex items-center justify-center md:justify-start mb-4">
+            <p className="flex-col items-center justify-center md:justify-start mb-4">
               For Sponsorship Queries- <br />
-              partners@dexignare.in
+              <a href="mailto:partners@dexignare.in" target="_blank" rel="noopener noreferrer">partners@dexignare.in</a>
+
             </p>
-            <p className="flex items-center justify-center md:justify-start mb-4">
+            <p className="flex-col items-center justify-center md:justify-start mb-4">
               For General Queries- <br />
-              hello@dexignare.in
+              <a href="mailto:hello@dexignare.in" target="_blank" rel="noopener noreferrer">hello@dexignare.in</a>
             </p>
           </div>
           <div className="More">
@@ -144,14 +154,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <hr
+        className="w-full"
+        style={{
+          border: 'none',
+          borderRadius: '10px',
+          height: '2px',
+          background: "linear-gradient(to right, #9130ea, #cb6497, #ff715b)"
+        }}
+      />
       <div
-        style={{ justifyContent: "space-between" }}
-        className="flex p-6 bg-black-200"
-      >
-        <p className="font-montserrat ml-6">
+        className="bg-dark-900 md:justify-between flex py-6 md:px-12 bg-black-200 flex-col  md:flex-row md:justify-between">
+        <p className="font-montserrat">
           ALL RIGHTS RESERVED | © 2021 -2022 DEXIGNARE
         </p>
-        <p className="mr-6 flex font-montserrat">
+        <p className="font-montserrat flex justify-center">
           BUILT WITH{" "}
           <svg
             style={{ color: "red", fill: "red" }}
@@ -172,12 +189,7 @@ const Footer = () => {
             BY TEAM DDD’22
           </span>
         </p>
-        {/* <a
-          className="text-white-600 font-semibold"
-          href="https://tailwind-elements.com/"
-        >
-          Tailwind Elements
-        </a> */}
+
       </div>
     </footer>
   );

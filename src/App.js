@@ -1,18 +1,24 @@
-import Expert from "./Sections/Expert";
+import CustomCursor from "./components/CustomCursor/index";
 import Header from "./Sections/Header";
 import Revo from "./Sections/Revolution";
-import CustomCursor from "./components/CustomCursor/index";
+import Expert from "./Sections/Expert";
 import Agenda from "./Sections/Agenda";
-import Footer from "./components/Footer/Footer";
+import GetInTouch from './Sections/GetInTouch';
+import Footer from "./Sections/Footer";
+import Sponsors from './Sections/Sponsors/index';
+import FAQ from './Sections/FAQ/index';
 
 function App() {
   return (
     <div className="h-full bg-dark-900">
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       <Header />
       <Revo />
-      <Expert />
+      {/* <Expert /> */}
       <Agenda />
+      <Sponsors/>
+      {/* <FAQ/> */}
+      <GetInTouch/>
       <Footer />
     </div>
   );

@@ -69,7 +69,7 @@ const ModalButton = ({ text }) => {
                   as='h3'
                   className='text-4xl md:text-5xl lg:text-6xl py-6 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 font-montserrat'
                 >
-                  Coming Soon!
+                  Register
                 </Dialog.Title>
                 <div className='mt-2'>
                   <p className='text-md text-black font-montserrat'>
