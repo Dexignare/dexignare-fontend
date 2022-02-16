@@ -185,23 +185,23 @@ const Footer = () => {
               More
             </h6>
             <p className='mb-4'>
-              <a href='#!' className='text-white-600'>
+              <a href='#!' target="_blank" rel="noopener noreferrer" className='text-white-600 cursor-none'>
                 Team
               </a>
             </p>
             <p className='mb-4'>
-              <a href='#!' className='text-white-600'>
+              <a href='https://medium.com/dexignare' target="_blank" rel="noopener noreferrer" className='text-white-600'>
                 Blog
               </a>
             </p>
             <p className='mb-4'>
-              <a href='#!' className='text-white-600'>
+              <a href='#!' target="_blank" rel="noopener noreferrer" className='text-white-600 cursor-none'>
                 Prizes
               </a>
             </p>
             <p>
-              <a href='#!' className='text-white-600'>
-                Volunteer
+              <a href='#!' target="_blank" rel="noopener noreferrer" className='text-white-600'>
+                Become an Ambassador
               </a>
             </p>
           </div>

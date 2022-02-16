@@ -28,7 +28,7 @@ const Hero = () => {
 
         {/* absolute left-4 right-4 bottom-32 xxs:bottom-28 xs:bottom-36 xxs:my-4 */}
       </div>
-
+      {/* <Button text="Apply with Devfolio" link="https://ddd22.devfolio.co"/> */}
       <div className='flex justify-center my-12 xxs:my-32 xs:my-24 sm:my-16 md:my-0 transition ease-in-out delay-150 duration-300 hover:scale-105'>
         <div
           className='apply-button'
