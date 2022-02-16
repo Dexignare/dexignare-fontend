@@ -1,4 +1,5 @@
 import CustomCursor from "./components/CustomCursor/index";
+// import BackToTop from './components/BackToTop/index';
 import Header from "./Sections/Header";
 import Revo from "./Sections/Revolution";
 // import Expert from "./Sections/Expert";
@@ -7,14 +8,13 @@ import GetInTouch from './Sections/GetInTouch';
 import Footer from "./Sections/Footer";
 import Sponsors from './Sections/Sponsors/index';
 // import FAQ from './Sections/FAQ/index';
-import BackToTop from './components/BackToTop/index';
 
 
 function App() {
   return (
     <div className="h-full bg-dark-900">
       <CustomCursor />
-      <BackToTop/>
+      {/* <BackToTop/> */}
       <Header />
       <Revo />
       {/* <Expert /> */}
