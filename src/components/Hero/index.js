@@ -29,7 +29,7 @@ const Hero = () => {
         {/* absolute left-4 right-4 bottom-32 xxs:bottom-28 xs:bottom-36 xxs:my-4 */}
       </div>
 
-      <div className='flex justify-center my-48 xs:my-24 sm:my-16 md:my-0'>
+      <div className='flex justify-center my-8 xxs:my-48 xs:my-24 sm:my-16 md:my-0'>
         <div
           className='apply-button'
           target='_blank'

@@ -34,12 +34,17 @@ hr {
     rgba(41, 27, 66, 0.47) 100%
   );
   box-shadow: 0px 4px 40px -1px #000000;
+  max-width: 1096px;
   border: 3px solid transparent;
+
+  border-top-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+
   border-image-source: linear-gradient(94.83deg, #9c3ad9 0%, #f76e64 100%);
   border-image-slice: 1;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   backdrop-filter: blur(60px);
-  padding: 2rem;
+  padding: 2.5rem 3rem;
 }
 
 .gap {
@@ -54,12 +59,14 @@ hr {
   );
 }
 
-.announcement {
+/* .announcement {
   margin-left: 50%;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .rectangle {
-    font-size: 0.75rem;
+    font-size: 0.70rem;
+    padding: 1rem;
   }
 }
+
