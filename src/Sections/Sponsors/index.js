@@ -16,7 +16,7 @@ const Sponsors = () => {
         <h2 className='text-center text-5xl text-white font-bold mb-12'>
           Sponsors
         </h2>
-        <div className=''>
+        <div className='flex-col justify-center'>
           <LogoCloud
             name="Devflio"
             imgsrc={Devfolio}
