@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 // import ModalButton from '../../components/ModalButton'
 import ScrollButton from './../ScrollButton'
-// import Button from './../Button/index'
+import Button from './../Button/index'
 // import { ReactComponent as TitleSponsors } from '../../assets/titlesponsors.svg'
 
 const Hero = () => {
@@ -26,10 +26,10 @@ const Hero = () => {
           20th - 23rd March
         </p>
 
-        {/* absolute left-4 right-4 bottom-32 xxs:bottom-28 xs:bottom-36 xxs:my-4 */}
+        {/* my-12 xxs:my-32 xs:my-24 sm:my-16 md:my-0 */}
       </div>
-      {/* <Button text="Apply with Devfolio" link="https://ddd22.devfolio.co"/> */}
-      <div className='flex justify-center my-12 xxs:my-32 xs:my-24 sm:my-16 md:my-0 transition ease-in-out delay-150 duration-300 hover:scale-105'>
+      <Button text="Apply with Devfolio" link="https://ddd22.devfolio.co"/>
+      <div className='flex justify-center  transition ease-in-out delay-150 duration-300 hover:scale-105'>
         <div
           className='apply-button'
           target='_blank'
