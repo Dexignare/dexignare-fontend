@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogoCloud = ({name, imgsrc, link}) => {
   return (
-    <div className=' mt-4 sm:mt-8 sm:flex justify-center '>
+    <div className='mt-4 sm:mt-8 flex justify-center '>
         {/* <div className='transition ease-in-out delay-50 hover:scale-105 duration-200 p-0.5 bg-gradient-to-l from-magenta-500 via-fuchsia-500 to-violet-500 rounded-tl-xl rounded-br-xl '>
           <div className='rounded-tl-xl rounded-br-xl shadow'>
             <a
