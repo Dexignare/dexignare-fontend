@@ -28,7 +28,7 @@ const Revo = () => {
         March 20th, 21st, 22nd & 23rd <br/> Online | Conference - Connect - Designathon
       </p>
       <div className="sm:flex sm:justify-end sm:px-8 lg:px-12">
-      <Button text="Learn more" link="https://ddd22.devfolio.co"/>
+      <Button text="Book your Seat" link="https://ddd22.devfolio.co"/>
       </div>
     </div>
   );

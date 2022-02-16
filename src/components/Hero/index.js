@@ -36,7 +36,7 @@ const Hero = () => {
           rel='noopener noreferrer'
           data-hackathon-slug='ddd22.devfolio.co'
           data-button-theme='dark-inverted'
-          // style={{ height: '84px', width: '312px' }}
+          style={{ height: '84px', width: '312px' }}
         ></div>
       </div>
 
