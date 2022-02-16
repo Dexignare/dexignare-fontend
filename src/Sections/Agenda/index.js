@@ -116,14 +116,14 @@ const Agenda = () => {
               </div>
               <div>
                 <div
-                  className="ml-[8%] sm:ml-[25%] text-white font-montserrat mt-2 font-bold leading-tight"
+                  className="ml-[10%] xs:ml-[35%] mr-[10%] text-center sm:ml-[25%] text-white font-montserrat mt-2 font-bold leading-tight"
                   // style={{ marginLeft: "30%" }}
                 >
                   {data.title2}
                 </div>
               </div>
               <div>
-                <div className="ml-[10%] sm:ml-[40%] text-white font-montserrat mt-2 font-bold leading-tight"
+                <div className="ml-[10%] text-right sm:ml-[40%] text-white font-montserrat mt-2 font-bold leading-tight"
                 >
                   {data.title3}
                 </div>
