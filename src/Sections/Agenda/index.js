@@ -48,7 +48,7 @@ const data = [
 const Agenda = () => {
   return (
     <div
-      // style={{ padding: "1rem" }}
+      id="agenda"
       className="md:px-8">
       <h4 className=" text-center tracking-tight font-extrabold text-4xl xxxs:text-{5xl} xxs:text-{7xl}  sm:text-4xl lg:text-4xl block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 leading-normal font-montserrat">
         DDD'22

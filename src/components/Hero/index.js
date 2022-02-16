@@ -17,9 +17,9 @@ const Hero = () => {
   }, [])
 
   return (
-    <main className='mt-12 mx-auto lg:max-w-8xl px-4 xs:px-12 sm:mt-16 sm:px-6 md:mt-16 lg:mt-16 lg:px-8'>
+    <main className='mt-12 mx-auto lg:max-w-8xl px-4 xs:px-12 sm:mt-16 sm:px-6 md:mt-20 lg:mt-28 lg:px-8'>
       <div className='sm:text-center'>
-        <h1 className='tracking-tight font-extrabold text-4xl xxxs:text-{5xl} xxs:text-{7xl}  sm:text-6xl lg:text-7xl block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 xl:inline leading-normal'>
+        <h1 className='tracking-tight font-extrabold text-4xl xxxs:text-{5xl} xxs:text-{7xl} sm:text-6xl lg:text-7xl block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 xl:inline leading-normal'>
           Design Development Days <br /> 2022 is here!
         </h1>
         <p className='xxs:text-3xl lg:text-7xl sm:items-center sm:flex justify-center font-montserrat mt-3 text-base text-white sm:mt-5 text-xl sm:max-w-xl sm:mx-auto md:mt-6 '>
@@ -29,7 +29,7 @@ const Hero = () => {
         {/* absolute left-4 right-4 bottom-32 xxs:bottom-28 xs:bottom-36 xxs:my-4 */}
       </div>
 
-      <div className='flex justify-center my-8 xxs:my-48 xs:my-24 sm:my-16 md:my-0'>
+      <div className='flex justify-center my-12 xxs:my-32 xs:my-24 sm:my-16 md:my-0 transition ease-in-out delay-150 duration-300 hover:scale-105'>
         <div
           className='apply-button'
           target='_blank'

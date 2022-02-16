@@ -14,6 +14,7 @@ html {
   background-color: #05000b;
   /* cursor:none; */
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 /* ------------Custom Scrollbar------------- */
 

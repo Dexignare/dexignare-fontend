@@ -5,12 +5,12 @@ import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 const navigation = [
   { name: 'About', href: 'https://medium.com/dexignare/design-development-days-an-initiative-by-dexignare-ea5854d5f9eb', target:"_blank"},
-  { name: 'Speakers', href: '#' },
-  { name: 'Agenda', href: '#' },
-  { name: 'Sponsors', href: '#' },
+  { name: 'Speakers', href: '#speakers' },
+  { name: 'Agenda', href: '#agenda' },
+  { name: 'Sponsors', href: '#sponsors' },
   { name: `What's Inside`, href: '#' },
-  { name: `DDD'21`, href: '#' },
-  { name: `FAQ's`, href: '#' },
+  { name: `DDD'21`, href: 'https://dddx.dexignare.in/', target:"_blank" },
+  { name: `FAQ's`, href: '#faq' },
 ]
 
 const Navbar = () => {

@@ -5,7 +5,7 @@ const Button = ({ text, link }) => {
 
   return (
     <div className='mt-5 sm:mt-8 sm:flex justify-center '>
-        <div className='transition ease-in-out delay-150 hover:scale-110 duration-300 p-0.5 bg-gradient-to-l from-magenta-500 via-fuchsia-500 to-violet-500 rounded-tl-xl rounded-br-xl '>
+        <div className='transition ease-in-out delay-50 duration-200 hover:scale-105 p-0.5 bg-gradient-to-l from-magenta-500 via-fuchsia-500 to-violet-500 rounded-tl-xl rounded-br-xl '>
           <div className='rounded-tl-xl rounded-br-xl shadow'>
             <a
               type='button'
