@@ -108,7 +108,7 @@ const Agenda = () => {
 
             <div className="flex justify-between">
               <div>
-                <div className="text-white font-montserrat mt-2 font-bold leading-tight"
+                <div className="mr-[20%] text-white font-montserrat mt-2 font-bold leading-tight"
                   // style={{ marginLeft: "15px" }}
                 >
                   {data.title1}
@@ -116,7 +116,7 @@ const Agenda = () => {
               </div>
               <div>
                 <div
-                  className="ml-[10%] xs:ml-[35%] mr-[10%] text-center sm:ml-[25%] text-white font-montserrat mt-2 font-bold leading-tight"
+                  className="ml-[10%] mr-[10%] xs:ml-[25%] xs:mr-[10%] text-center  text-white font-montserrat mt-2 font-bold leading-tight"
                   // style={{ marginLeft: "30%" }}
                 >
                   {data.title2}
