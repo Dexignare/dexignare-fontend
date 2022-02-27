@@ -5,7 +5,7 @@ import ddd from '../../assets/DDD.svg'
 const Footer = () => {
   return (
     <footer className='bg-dark-700 font-montserrat text-center lg:text-left text-white-600'>
-      <div className='flex  bg-dark-900 justify-center items-center lg:justify-between p-6'>
+      <div className='flex bg-dark-900 justify-center items-center lg:justify-between p-6'>
         <div className='px-4 hidden lg:block'>
           <span>Get connected with us on social networks:</span>
         </div>
