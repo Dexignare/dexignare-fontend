@@ -1,54 +1,42 @@
 import React from "react";
 import stock from "../../assets/stock.png";
+import expert1 from "../../assets/experts/garima.jpeg";
+import expert2 from "../../assets/experts/rushab.jpeg";
+import expert3 from "../../assets/experts/siddhant.jpg";
+import expert4 from "../../assets/experts/pankaj.jpg";
 import "./index.css";
 import Card from "../../components/Card";
 
 const data = [
   {
-    name: "John Doe",
+    name: "Garima Mehta",
     pos: "CEO, Adobe",
-    image: stock,
+    image: expert1,
+    linkedin: "https://www.linkedin.com/in/qalamkaari-garima/"
   },
   {
-    name: "John Doe",
+    name: "Rushab Kataria",
     pos: "CEO, Adobe",
-    image: stock,
+    image: expert2,
+    linkedin: "https://www.linkedin.com/in/rushabk/"
   },
   {
-    name: "John Doe",
+    name: "Siddhant Singh",
     pos: "CEO, Adobe",
-    image: stock,
+    image: expert3,
+    linkedin: "https://www.linkedin.com/in/simply-siddhant-singh/"
   },
   {
-    name: "John Doe",
+    name: "Pankaj Kumar",
     pos: "CEO, Adobe",
-    image: stock,
-  },
-  {
-    name: "John Doe",
-    pos: "CEO, Adobe",
-    image: stock,
-  },
-  {
-    name: "John Doe",
-    pos: "CEO, Adobe",
-    image: stock,
-  },
-  {
-    name: "John Doe",
-    pos: "CEO, Adobe",
-    image: stock,
-  },
-  {
-    name: "John Doe",
-    pos: "CEO, Adobe",
-    image: stock,
+    image: expert4,
+    linkedin: "https://www.linkedin.com/in/pankaj-parmar-41663653/"
   },
 ];
 
 const Expert = () => {
   return (
-    <div id="speakers" className="text-center">
+    <div id="speakers" className="text-center my-16 sm:my-24 lg:my-32">
       <h4 className="tracking-tight font-extrabold text-4xl xxxs:text-{5xl} xxs:text-{7xl}  sm:text-4xl lg:text-4xl block text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-magenta-500 to-bittersweet-500 xl:inline leading-normal font-montserrat">
         DDD'22
       </h4>
@@ -56,10 +44,14 @@ const Expert = () => {
         The Experts
       </h2>
 
-      <div className="grid grid-cols-1 mx-8 sm:grid-cols-4 lg:grid-cols-6 gap-4 place-items-center">
+      {/* <div className="grid grid-cols-1 mx-8 sm:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center"> */}
+
+      {/* <div className="flex flex-col sm:flex-row mx-8 justify-evenly place-items-center"> */}
+
+      <div className="grid grid-cols-1 mx-8 sm:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center">
         {data.map((data, index) => {
           return (
-            <Card img={data.image} name={data.name} pos={data.pos}/>
+            <Card img={data.image} name={data.name} pos={data.pos} social={data.linkedin}/>
           );
         })}
       </div>

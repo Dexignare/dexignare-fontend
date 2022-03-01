@@ -2,7 +2,7 @@ import CustomCursor from "./components/CustomCursor/index";
 // import BackToTop from './components/BackToTop/index';
 import Header from "./Sections/Header";
 import Revo from "./Sections/Revolution";
-// import Expert from "./Sections/Expert";
+import Expert from "./Sections/Expert";
 import Agenda from "./Sections/Agenda";
 import GetInTouch from './Sections/GetInTouch';
 import Footer from "./Sections/Footer";
@@ -17,7 +17,7 @@ function App() {
       {/* <BackToTop/> */}
       <Header />
       <Revo />
-      {/* <Expert /> */}
+      <Expert />
       <Agenda />
       <Sponsors/>
       {/* <FAQ/> */}

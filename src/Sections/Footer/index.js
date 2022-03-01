@@ -83,8 +83,7 @@ const Footer = () => {
             href='https://in.linkedin.com/company/dexignare-com'
             target='_blank'
             rel='noopener noreferrer'
-            className='
-          hover:scale-125 mx-4 text-white-600'
+            className='hover:scale-125 mx-4 text-white-600'
           >
             <svg
               aria-hidden='true'
@@ -132,7 +131,7 @@ const Footer = () => {
           background: 'linear-gradient(to right, #9130ea, #cb6497, #ff715b)',
         }}
       />
-      <div className='mx-6 py-10 text-center md:text-left'>
+      <div className='px-4 mx-6 py-10 text-center md:text-left'>
         <div className='grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-20'>
           <div className='head'>
             <h6
@@ -159,25 +158,35 @@ const Footer = () => {
             <h6 className='uppercase font-semibold mb-4 flex justify-center md:justify-start'>
               Contact Us
             </h6>
+
             <p className='flex-col items-center justify-center md:justify-start mb-4'>
               For Sponsorship Queries- <br />
-              <a
-                href='mailto:partners@dexignare.in'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                partners@dexignare.in
-              </a>
+              <p className='menuitem transition-all duration-200 ease-out'>
+                <a
+                  href='mailto:hello@dexignare.in'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='transition-all duration-200 ease-out'
+                >
+                  partners@dexignare.in
+                </a>
+                <span className='hover:w-3/5'></span>
+              </p>
             </p>
+
             <p className='flex-col items-center justify-center md:justify-start mb-4'>
               For General Queries- <br />
-              <a
-                href='mailto:hello@dexignare.in'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                hello@dexignare.in
-              </a>
+              <p className='menuitem transition-all duration-200 ease-out'>
+                <a
+                  href='mailto:hello@dexignare.in'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='transition-all duration-200 ease-out'
+                >
+                  hello@dexignare.in
+                </a>
+                <span className='hover:w-3/5'></span>
+              </p>
             </p>
           </div>
           <div className='More'>
@@ -185,22 +194,42 @@ const Footer = () => {
               More
             </h6>
             <p className='mb-4'>
-              <a href='#!' target="_blank" rel="noopener noreferrer" className='text-white-600 cursor-none'>
+              <a
+                href='#!'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-white-600 cursor-none'
+              >
                 Team
               </a>
             </p>
             <p className='mb-4'>
-              <a href='https://medium.com/dexignare' target="_blank" rel="noopener noreferrer" className='text-white-600'>
+              <a
+                href='https://medium.com/dexignare'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-white-600'
+              >
                 Blog
               </a>
             </p>
             <p className='mb-4'>
-              <a href='#!' target="_blank" rel="noopener noreferrer" className='text-white-600 cursor-none'>
+              <a
+                href='https://ddd22.devfolio.co/#prizes'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-white-600'
+              >
                 Prizes
               </a>
             </p>
             <p>
-              <a href='#!' target="_blank" rel="noopener noreferrer" className='text-white-600'>
+              <a
+                href='https://bit.ly/ddd22_Advocates'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-white-600'
+              >
                 Become an Ambassador
               </a>
             </p>
@@ -216,7 +245,7 @@ const Footer = () => {
           background: 'linear-gradient(to right, #9130ea, #cb6497, #ff715b)',
         }}
       />
-      <div className='bg-dark-900 md:justify-between flex py-6 md:px-12 bg-black-200 flex-col  md:flex-row md:justify-between'>
+      <div className='bg-dark-900 md:justify-between flex py-6 md:px-12 bg-black-200 flex-col md:flex-row md:justify-between'>
         <p className='font-montserrat'>
           ALL RIGHTS RESERVED | © 2021 -2022 DEXIGNARE
         </p>

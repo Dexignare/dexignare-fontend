@@ -55,7 +55,7 @@ border-image-source: linear-gradient(94.83deg, #9c3ad9 0%, #f76e64 100%);
   height: 32px;
   text-align: center;
   cursor: pointer;
-  margin: 0 1rem !important;
+  /* margin: 0 1rem !important; */
 }
 
 .menuitem span {
