@@ -17,7 +17,7 @@ const Card = ({ name, pos, img, social }) => {
           <p className='text-white font-montserrat mt-2 font-bold text-lg leading-tight truncate'>
             {name}
           </p>
-          <div className='mb-2'>
+          <div className='mb-2  px-6'>
             <span className='text-light-300 text-md'>{pos}</span>
           </div>
         </div>

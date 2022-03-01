@@ -10,25 +10,25 @@ import Card from "../../components/Card";
 const data = [
   {
     name: "Garima Mehta",
-    pos: "CEO, Adobe",
+    pos: "Experience Designer & Mentor",
     image: expert1,
     linkedin: "https://www.linkedin.com/in/qalamkaari-garima/"
   },
   {
     name: "Rushab Kataria",
-    pos: "CEO, Adobe",
+    pos: "Sr Experience Designer at Oneplus",
     image: expert2,
     linkedin: "https://www.linkedin.com/in/rushabk/"
   },
   {
     name: "Siddhant Singh",
-    pos: "CEO, Adobe",
+    pos: "UX Consultant at Deloitte Digital",
     image: expert3,
     linkedin: "https://www.linkedin.com/in/simply-siddhant-singh/"
   },
   {
     name: "Pankaj Kumar",
-    pos: "CEO, Adobe",
+    pos: "Unity Developer with 10+ years of experience",
     image: expert4,
     linkedin: "https://www.linkedin.com/in/pankaj-parmar-41663653/"
   },
