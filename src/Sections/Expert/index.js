@@ -1,5 +1,4 @@
 import React from "react";
-import stock from "../../assets/stock.png";
 import expert1 from "../../assets/experts/garima.jpeg";
 import expert2 from "../../assets/experts/rushab.jpeg";
 import expert3 from "../../assets/experts/siddhant.jpg";
