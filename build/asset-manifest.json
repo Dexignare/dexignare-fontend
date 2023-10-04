@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dexignare-fontend/static/css/main.158f1117.css",
+    "main.js": "/dexignare-fontend/static/js/main.e12bdc1c.js",
+    "static/js/27.2cc9a526.chunk.js": "/dexignare-fontend/static/js/27.2cc9a526.chunk.js",
+    "static/media/logo.svg": "/dexignare-fontend/static/media/logo.e99d5534123e9ea09504fd9df07f883f.svg",
+    "static/media/texturebg2.png": "/dexignare-fontend/static/media/texturebg2.be283ab1262353b6f38d.png",
+    "static/media/DDD.svg": "/dexignare-fontend/static/media/DDD.46b0575cba84682a5a45b42d2eae8f88.svg",
+    "static/media/rushab.jpeg": "/dexignare-fontend/static/media/rushab.bbeda9902ed1a4a4f3b4.jpeg",
+    "static/media/pankaj.jpg": "/dexignare-fontend/static/media/pankaj.a105d894c54862b77dcc.jpg",
+    "static/media/figma.png": "/dexignare-fontend/static/media/figma.90eb21ce643748e3b320.png",
+    "static/media/siddhant.jpg": "/dexignare-fontend/static/media/siddhant.5ceee0c099434d223623.jpg",
+    "static/media/garima.jpeg": "/dexignare-fontend/static/media/garima.f66731b6be2e291baccf.jpeg",
+    "static/media/celo.png": "/dexignare-fontend/static/media/celo.942c23d03e2edc3185b5.png",
+    "static/media/title.png": "/dexignare-fontend/static/media/title.e88b9e8416fee514e5bf.png",
+    "index.html": "/dexignare-fontend/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.158f1117.css",
+    "static/js/main.e12bdc1c.js"
+  ]
+}
