@@ -10,6 +10,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.2",
+    "env-cmd": "^10.1.0",
     "flowbite": "^1.3.2",
     "postcss": "^8.4.6",
     "react": "^17.0.2",
@@ -18,12 +19,20 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
+    "start:dev": "env-cmd -f .env.dev npm run start",
+    "start:staging": "env-cmd -f .env.staging npm run start",
+    "start:prod": "env-cmd -f .env.prod npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-serve": "serve -s build",
+    "build:dev": "env-cmd -f .env.dev npm run build",
+    "build:qa": "env-cmd -f .env.qa npm run build",
+    "build:staging": "env-cmd -f .env.staging npm run build",
+    "build:uat": "env-cmd -f .env.uat npm run build",
+    "build:prod": "env-cmd -f .env.prod npm run build"
   },
   "eslintConfig": {
     "extends": [
